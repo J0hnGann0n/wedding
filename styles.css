@@ -61,15 +61,18 @@ dt {
   align-items: center;
   row-gap: 8px;
 }
+.agenda dt {
+  width: 35%;
+  margin: 0;
+}
 
-.agenda dt,
 .agenda dd {
   width: 50%;
   margin: 0;
 }
 
 .pint {
-  max-height: 650px;
+  max-height: 750px;
 }
 
 .intro-wrapper button {
@@ -81,6 +84,10 @@ dt {
   font-size: 1.3em;
   color: var(--highlight-color);
   width: 66%;
+}
+
+.hero-cta {
+  width: fit-content;
 }
 
 .intro-wrapper .description {
@@ -271,6 +278,7 @@ section {
 #language-switcher button.selected {
   background-color: var(--highlight-color);
 }
+
 #close-button {
   float: right;
 }
@@ -307,6 +315,15 @@ section {
     margin-top: 10rem;
     width: 33%;
   }
+  h1 {
+    font-size: 4rem;
+  }
+  .hero-location {
+    font-size: 2.5rem;
+  }  
+  .description {
+    font-size: 1.75rem;
+  }    
 }
 
 /* Utilitiy classes */
