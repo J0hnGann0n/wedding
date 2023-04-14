@@ -36,7 +36,7 @@ jobs:
         ROB_NUMBER: ${{ secrets.ROB_NUMBER }}
         MIRJAM_NUMBER: ${{ secrets.MIRJAM_NUMBER }}
         JOHN_NUMBER: ${{ secrets.JOHN_NUMBER }}
-        ADDRESS_NUMBER: ${{ secrets.ADDRESS }}
+        ADDRESS: ${{ secrets.ADDRESS }}
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact
