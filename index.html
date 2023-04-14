@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter|Roboto&display=swap" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -77,11 +78,11 @@
         <h2 data-translationkey="contacts.title"></h2>
         <dl>
           <dt>
-            <span class="font-bold">Mirjam</span>
+            <span class="font-bold">Mirjam </span>
             <span class="font-light" data-personal="mirjam"></span>
           </dt>
           <dt>
-            <span class="font-bold">John</span>
+            <span class="font-bold">John </span>
             <span class="font-light" data-personal="john"></span>
           </dt>
           <dt data-personal="address"></dt>
@@ -89,22 +90,22 @@
         <h3 data-translationkey="contacts.bridesmaids"></h3>
         <dl>
           <dt>
-            <span class="font-bold">Edith Kohler</span>
+            <span class="font-bold">Edith Kohler </span>
             <span class="font-light" data-personal="edith"></span>
           </dt>
           <dt>
-            <span class="font-bold">Stefan Thomet</span
+            <span class="font-bold">Stefan Thomet </span
             ><span class="font-light" data-personal="stefan"></span>
           </dt>
         </dl>
         <h3 data-translationkey="contacts.groomsmen"></h3>
         <dl>
           <dt>
-            <span class="font-bold">Owen Carey</span
+            <span class="font-bold">Owen Carey </span
             ><span class="font-light" data-personal="owen"></span>
           </dt>
           <dt>
-            <span class="font-bold">Rob Gannon</span
+            <span class="font-bold">Rob Gannon </span
             ><span class="font-light" data-personal="rob"></span>
           </dt>
         </dl>
@@ -214,8 +215,9 @@
         personalDataElements.forEach((element) => {
           const key = element.dataset.personal;
           const value = personalData[key];
+          const innerHTML = (key === 'address') ? value : `<a href="tel:${value}">${value}</a>`
           if (value) {
-            element.innerHTML = value;
+            element.innerHTML = element.innerHTML = innerHTML;
           }
         });
       }
