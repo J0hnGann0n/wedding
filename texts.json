@@ -1,0 +1,120 @@
+{
+  "head": {
+    "title": {
+      "en": "Mirjam & Johns Wedding",
+      "de": "Mirjam & Johns Hochzeit"
+    }
+  },
+  "header": {
+    "title": {
+      "en": "WEDDING <span class='font-light'>Mirjam & John</span>",
+      "de": "HOCHZEIT <span class='font-light'>Mirjam & John</span>"
+    }
+  },
+  "intro": {
+    "description": {
+      "en": "Come join us for a dance, a bite to eat and a cozy pint...",
+      "de": "Kommen Sie zu uns, um zu tanzen, etwas zu essen und ein gemütliches Bier zu trinken ..."
+    }
+  },
+  "agenda": {
+    "title": {
+      "en": "Agenda",
+      "de": "Programm"
+    },
+    "description": {
+      "en": "The agenda is still to be confirmed but will be set closer to the date",
+      "de": "Das Programm steht noch nicht fest, wird aber näher am Datum festgelegt"
+    },
+    "pickup": {
+      "en": "Pickup from Galway",
+      "de": "Abholung von Galway"
+    },
+    "ceremony": {
+      "en": "Ceremony",
+      "de": "Zeremonie"
+    },
+    "reception": {
+      "en": "Reception",
+      "de": "Empfang"
+    },
+    "dinner": {
+      "en": "Dinner",
+      "de": "Abendessen"
+    },
+    "dance": {
+      "en": "Dance",
+      "de": "Tanz"
+    },
+    "bring": {
+      "en": "Transport to Galway",
+      "de": "Transport nach Galway"
+    },
+    "day1": {
+      "en": "21. October",
+      "de": "21. Oktober"
+    },
+    "day2": {
+      "en": "22. October",
+      "de": "22. Oktober"
+    }
+  },
+  "accommodation": {
+    "title": {
+      "en": "Accommodation",
+      "de": "Unterkunft"
+    },
+    "description": {
+      "en": "The Accommodation at Vaughans pub is already booked out for the wedding party. Kilfenore itself has many B&B's. Here is a list of B&Bs provided by Vaughans pub. We recommend trying these out as they might offer better deals. Otherwise you can look on Booking/Airbnb.",
+      "de": "Die Unterkunft im Vaughans Pub ist bereits für die Hochzeitsgesellschaft ausgebucht. Kilfenore selbst verfügt über viele B&Bs. Hier ist eine Liste von B&Bs, die vom Vaughans Pub bereitgestellt wird. Wir empfehlen, diese auszuprobieren, da sie möglicherweise bessere Angebote bieten. Andernfalls können Sie auf Booking/Airbnb nachsehen."
+    },
+    "bb_list": {
+      "en": "B&B List",
+      "de": "B&B Liste"
+    },
+    "hotel_transport": {
+      "en": "For people who wish to stay in a hotel, there will be transport arranged from and to the following nearby towns:",
+      "de": "Für Personen, die in einem Hotel übernachten möchten, wird ein Transport von und zu den folgenden nahegelegenen Städten organisiert:"
+    },
+    "nearby_towns": {
+      "en": "Ennistymon, Lisdoonvarna, Liscannor, Lahinch",
+      "de": "Ennistymon, Lisdoonvarna, Liscannor, Lahinch"
+    }
+  },
+  "contacts": {
+    "title": {
+      "en": "Contacts",
+      "de": "Kontakte"
+    },
+    "bridesmaids": {
+      "en": "Bridesmaids",
+      "de": "Brautjungfern"
+    },
+    "groomsmen": {
+      "en": "Groomsmen",
+      "de": "Trauzeugen"
+    }
+  },
+  "faq": {
+    "question1": {
+      "question": {
+        "en": "How do I get to Vaughans Pub?",
+        "de": "Wie kommen wir zum Vaughans Pub?"
+      },
+      "answer": {
+        "en": "We will organise Buses from Galway on the 21.10.23, when you sign up you can register for a bus drop-off/pickup. On the 22.10.23 there will be Buses going back from Ballyvaughan to Galway, you will be informed closer to the day",
+        "de": "Wir organisieren Busse von Galway am 21.10.23, wenn Sie sich angemeldet haben, werden wir Sie informieren und Sie können sich dafür anmelden. Am 22.10.23 werden Busse von Ballyvaughan nach Galway zurückfahren, Sie werden näher am Tag informiert"
+      }
+    },
+    "question2": {
+      "question": {
+        "en": "What gifts would you like?",
+        "de": "Welche Geschenke möchtet ihr?"
+      },
+      "answer": {
+        "en": "We truly do not expect anyone to give gifts/money, please dont feel obligated to give anything in anyway. For those who want to give you can send money to the following charity, or can contribute to our honeymoon. Please dont give physical gifts as they will need to be transported to Switzerland. <span> Charity: CH234 340239 234890 234 </span> <span>Honeymoon Account: CH234 234890 2348 0234890 </span>",
+        "de": "Wir erwarten wirklich nicht, dass jemand Geschenke oder Geld gibt. Bitte fühlen Sie sich in keiner Weise verpflichtet, irgendetwas zu geben. Für diejenigen, die gerne etwas geben möchten, können Sie Geld an die folgende Wohltätigkeitsorganisation senden oder zu unserer Hochzeitsreise beitragen. Bitte geben Sie keine physischen Geschenke, da sie in die Schweiz transportiert werden müssen. Wohltätigkeit: CH234 340239 234890 234 Flitterwochen-Konto: CH234 234890 2348 0234890."
+      }
+    }
+  }
+}

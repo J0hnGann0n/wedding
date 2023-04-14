@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title data-translationkey="head.title"></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="intro-wrapper">
+        <div class="hero-wrapper">
+          <div>
+            <h1 data-translationkey="header.title"></h1>
+            <p>
+              <span class="font-bold">21.10 | 22.10 2023</span><br />
+              Vaughans Pub, Clare <br />
+              Keoghs Pub, Galway
+            </p>
+            <p class="description" data-translationkey="intro.description"></p>
+            <button type="button" class="rsvp-button">RSVP</button>
+          </div>
+          <div class="img-wrapper">
+            <img src="./pint.png" class="pint" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="agenda" id="agenda">
+        <h2 data-translationkey="agenda.title"></h2>
+        <p data-translationkey="agenda.description"></p>
+        <div class="agenda-days">
+          <div class="agenda-day">
+            <h3 data-translationkey="agenda.day1">21. October</h3>
+            <dl>
+              <dt>tbd</dt>
+              <dd data-translationkey="agenda.pickup"></dd>
+              <dt>15:00</dt>
+              <dd data-translationkey="agenda.ceremony"></dd>
+              <dt>15:30</dt>
+              <dd data-translationkey="agenda.reception"></dd>
+              <dt>17:00</dt>
+              <dd data-translationkey="agenda.dinner"></dd>
+              <dt>20:00</dt>
+              <dd data-translationkey="agenda.dance"></dd>
+            </dl>
+          </div>
+          <div class="agenda-day">
+            <h3 data-translationkey="agenda.day2"></h3>
+            <dl>
+              <dt>tbd</dt>
+              <dd data-translationkey="agenda.bring"></dd>
+              <dt>17:00</dt>
+              <dd>Keogh's Pub in Galway</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <section id="accommodation">
+        <h2 data-translationkey="accommodation.title"></h2>
+        <p data-translationkey="accommodation.description"></p>
+        <a data-translationkey="accommodation.bb_list"></a>
+        <p data-translationkey="accommodation.hotel_transport"></p>
+        <p>Ennistymon, Lisdoonvarna, Liscannor, Lahinch</p>
+      </section>
+      <section id="contacts" class="contacts">
+        <h2 data-translationkey="contacts.title"></h2>
+        <dl>
+          <dt>
+            <span class="font-bold">Mirjam</span>
+            <span class="font-light" data-personal="mirjam"></span>
+          </dt>
+          <dt>
+            <span class="font-bold">John</span>
+            <span class="font-light" data-personal="john"></span>
+          </dt>
+          <dt data-personal="address"></dt>
+        </dl>
+        <h3 data-translationkey="contacts.bridesmaids"></h3>
+        <dl>
+          <dt>
+            <span class="font-bold">Edith Kohler</span>
+            <span class="font-light" data-personal="edith"></span>
+          </dt>
+          <dt>
+            <span class="font-bold">Stefan Thomet</span
+            ><span class="font-light" data-personal="stefan"></span>
+          </dt>
+        </dl>
+        <h3 data-translationkey="contacts.groomsmen"></h3>
+        <dl>
+          <dt>
+            <span class="font-bold">Owen Carey</span
+            ><span class="font-light" data-personal="owen"></span>
+          </dt>
+          <dt>
+            <span class="font-bold">Rob Gannon</span
+            ><span class="font-light" data-personal="rob"></span>
+          </dt>
+        </dl>
+      </section>
+      <section id="faq" class="faq">
+        <h2>FAQ</h2>
+        <dl>
+          <dt data-translationkey="faq.question1.question"></dt>
+          <dd data-translationkey="faq.question1.answer"></dd>
+          <dt data-translationkey="faq.question2.question"></dt>
+          <dd data-translationkey="faq.question2.answer"></dd>
+        </dl>
+      </section>
+    </main>
+
+    <button id="floating-button">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
+    <div id="overlay-menu" class="exit">
+      <div class="menu-header">
+        <h2>Menu</h2>
+      </div>
+      <nav-bar>
+        <a class="rsvp-button">RSVP</a>
+        <a class="nav-link" href="#agenda">Agenda</a>
+        <a class="nav-link" href="#accommodation" data-translationkey="accommodation.title"
+          >Accommodation</a
+        >
+        <a class="nav-link" href="#contacts" data-translationkey="contacts.title"
+          >Contacts</a
+        >
+        <a class="nav-link" href="#faq">FAQ</a>
+      </nav-bar>
+      <div id="language-switcher">
+        <button type="button" onclick="setLang('en')" id="en-btn">en</button>
+        <button type="button" onclick="setLang('de')" id="de-btn">de</button>
+      </div>
+    </div>
+    <div id="rsvp-container" class="hidden">
+      <button id="close-button">X</button>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSftEoFR27kPOWUtvnYY9kUTG5HBleLD50dBX341Fc1CrHOtKA/viewform?embedded=true"
+        width="640"
+        height="640"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Loading…</iframe
+      >
+    </div>
+    <script>
+      let currentLanguage = "en";
+      let texts = {};
+      let personalData = {};
+      const languageSwitcher = document.getElementById("language-switcher");
+      const translateElements = document.querySelectorAll("[data-translationkey]");
+      const personalDataElements = document.querySelectorAll("[data-personal]");
+      const navLinks = document.getElementsByClassName("nav-link");
+      const overlayMenu = document.getElementById("overlay-menu");
+      const floatingButton = document.getElementById("floating-button");
+      const rsvpButtons = document.getElementsByClassName("rsvp-button");
+      const rsvpContainer = document.getElementById("rsvp-container");
+      const closeButton = document.querySelector("#close-button");
+
+      function highlightButton() {
+        const langButtons = document.querySelectorAll(
+          "#language-switcher button"
+        );
+        langButtons.forEach((button) => {
+          if (button.id === `${currentLanguage}-btn`) {
+            button.classList.add("selected");
+          } else {
+            button.classList.remove("selected");
+          }
+        });
+      }
+
+      function updateTexts() {
+        translateElements.forEach((element) => {
+          const key = element.dataset.translationkey;
+          const value = key.split(".").reduce((obj, k) => obj && obj[k], texts);
+          if (value && value[currentLanguage]) {
+            element.innerHTML = value[currentLanguage];
+          }
+        });
+      }
+
+      function updatePersonalData() {
+        personalDataElements.forEach((element) => {
+          const key = element.dataset.personal;
+          const value = personalData[key]
+          console.log(key)
+          console.log(value)
+          if (value) {
+            element.innerHTML = value;
+          }
+        });
+      }
+
+      function setLang(lang) {
+        document.documentElement.lang = lang;
+        currentLanguage = lang;
+        highlightButton();
+        updateTexts();
+      }
+
+      function toggleMenu() {
+        overlayMenu.classList.toggle("exit");
+        overlayMenu.classList.toggle("visible");
+        floatingButton.classList.toggle("close");
+      }
+
+      Array.from(rsvpButtons).forEach((rsvpButton) =>
+        rsvpButton.addEventListener("click", function (event) {
+          event.preventDefault();
+          rsvpContainer.classList.remove("hidden");
+          rsvpContainer.classList.add("popover");
+        })
+      );
+
+      closeButton.addEventListener("click", function () {
+        rsvpContainer.classList.add("hidden");
+        rsvpContainer.classList.remove("popover");
+      });
+
+      document.addEventListener("click", (event) => {
+        if (
+          event.target.id !== rsvpContainer.id &&
+          event.target.className !== "rsvp-button"
+        ) {
+          rsvpContainer.classList.add("hidden");
+          rsvpContainer.classList.remove("popover");
+        }
+      });
+
+      // 1. Detect browser local language
+      if (navigator.language.startsWith("de")) {
+        currentLanguage = "de";
+      }
+
+      // 2. Detect language from URL path
+      if (window.location.pathname.startsWith("/de")) {
+        currentLanguage = "de";
+      }
+
+      floatingButton.addEventListener("click", toggleMenu);
+
+      Array.from(navLinks).forEach((link) => {
+        link.addEventListener("click", toggleMenu);
+      });
+
+      fetch("/texts.json")
+        .then((response) => response.json())
+        .then((data) => {
+          texts = data;
+          setLang(currentLanguage);
+          updateTexts();
+        })
+        .catch((error) => console.error(error));
+
+      fetch("/personalData.json")
+        .then((response) => response.json())
+        .then((data) => {
+          personalData = data;
+          updatePersonalData();
+        })
+        .catch((error) => console.error(error));
+    </script>
+  </body>
+</html>
