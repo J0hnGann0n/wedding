@@ -249,7 +249,7 @@
         link.addEventListener("click", toggleMenu);
       });
 
-      fetch("/texts.json")
+      fetch("./texts.json")
         .then((response) => response.json())
         .then((data) => {
           texts = data;
@@ -258,7 +258,7 @@
         })
         .catch((error) => console.error(error));
 
-      fetch("/personalData.json")
+      fetch("./personalData.json")
         .then((response) => response.json())
         .then((data) => {
           personalData = data;
