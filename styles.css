@@ -90,21 +90,21 @@ dt {
 
 .intro-wrapper button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5rem;
   height: 8vh;
   font-size: 1.3em;
   color: var(--highlight-color);
-  width: 66%;
+  width: max-content;
 }
 
 .hero-cta {
   width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro-wrapper .description {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .img-wrapper {
@@ -330,8 +330,7 @@ section {
     justify-content: flex-end;
   }
   .intro-wrapper button {
-    margin-top: 10rem;
-    width: 33%;
+    width: max-content;
   }
   h1 {
     font-size: 4rem;
@@ -356,6 +355,10 @@ section {
     width: 640px;
     height: 640px;
     overflow: auto;
+  }
+  .hero-cta {
+    align-items: start;
+  
   }
 }
 

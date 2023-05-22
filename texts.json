@@ -14,7 +14,11 @@
   "intro": {
     "description": {
       "en": "Come join us for a dance, a bite to eat and a cozy pint...",
-      "de": "Feiert mit uns, mit einem Bier, guten Essen, dem Tanzbein..."
+      "de": "Feiert mit uns, mit einem Bier, gutem Essen, dem Tanzbein..."
+    },
+    "rsvp": {
+      "en": "RSVP",
+      "de": "An/Abmelden"
     }
   },
   "agenda": {
