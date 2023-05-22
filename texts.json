@@ -14,7 +14,7 @@
   "intro": {
     "description": {
       "en": "Come join us for a dance, a bite to eat and a cozy pint...",
-      "de": "Kommen Sie zu uns, um zu tanzen, etwas zu essen und ein gemütliches Bier zu trinken ..."
+      "de": "Feiert mit uns, mit einem Bier, guten Essen, dem Tanzbein..."
     }
   },
   "agenda": {
@@ -24,11 +24,11 @@
     },
     "description": {
       "en": "The agenda is still to be confirmed but will be set closer to the date",
-      "de": "Das Programm steht noch nicht fest, wird aber näher am Datum festgelegt"
+      "de": "Das Programm steht noch nicht fest, wird später definitiv festgelegt."
     },
     "pickup": {
       "en": "Pickup from Galway",
-      "de": "Abholung von Galway"
+      "de": "Transport von Galway"
     },
     "ceremony": {
       "en": "Ceremony",
@@ -36,7 +36,7 @@
     },
     "reception": {
       "en": "Reception",
-      "de": "Empfang"
+      "de": "Apero"
     },
     "dinner": {
       "en": "Dinner",
@@ -44,7 +44,7 @@
     },
     "dance": {
       "en": "Dance",
-      "de": "Tanz"
+      "de": "Tanz & Musik"
     },
     "bring": {
       "en": "Transport to Galway",
@@ -66,7 +66,7 @@
     },
     "description": {
       "en": "The Accommodation at Vaughans pub is already booked out for the wedding party. Kilfenore itself has many B&B's. Here is a list of B&Bs provided by Vaughans pub. We recommend trying these out as they might offer better deals. Otherwise you can look on Booking/Airbnb.",
-      "de": "Die Unterkunft im Vaughans Pub ist bereits für die Hochzeitsgesellschaft ausgebucht. Kilfenore selbst verfügt über viele B&Bs. Hier ist eine Liste von B&Bs, die vom Vaughans Pub bereitgestellt wird. Wir empfehlen, diese auszuprobieren, da sie möglicherweise bessere Angebote bieten. Andernfalls können Sie auf Booking/Airbnb nachsehen."
+      "de": "Die Unterkunft im Vaughans Pub ist bereits für die Hochzeitsgesellschaft ausgebucht. Kilfenore selbst verfügt über viele B&Bs. Hier ist eine Liste von B&Bs, die vom Vaughans Pub bereitgestellt wird. Wir empfehlen, diese auszuprobieren, da sie möglicherweise bessere Angebote bieten. Andernfalls können ihr auf Booking/Airbnb schauen."
     },
     "bb_list": {
       "en": "B&B List",
@@ -88,11 +88,11 @@
     },
     "bridesmaids": {
       "en": "Bridesmaids",
-      "de": "Brautjungfern"
+      "de": "Trauzeugen Braut"
     },
     "groomsmen": {
       "en": "Groomsmen",
-      "de": "Trauzeugen"
+      "de": "Trauzeugen Bräutigam"
     }
   },
   "faq": {
@@ -103,7 +103,7 @@
       },
       "answer": {
         "en": "We will organise Buses from Galway on the 21.10.23, when you sign up you can register for a bus drop-off/pickup. On the 22.10.23 there will be Buses going back from Ballyvaughan to Galway, you will be informed closer to the day",
-        "de": "Wir organisieren Busse von Galway am 21.10.23, wenn Sie sich angemeldet haben, werden wir Sie informieren und Sie können sich dafür anmelden. Am 22.10.23 werden Busse von Ballyvaughan nach Galway zurückfahren, Sie werden näher am Tag informiert"
+        "de": "Wir organisieren Busse von Galway am 21.10.23, wenn du dich fürs Hochzeit anmeldest, werden wir dich informieren und du kannst dich dafür anmelden. Am 22.10.23 werden Busse von Ballyvaughan nach Galway zurückfahren, du wirst später darüber informiert"
       }
     },
     "question2": {
@@ -113,7 +113,7 @@
       },
       "answer": {
         "en": "We truly do not expect anyone to give gifts/money, please dont feel obligated to give anything in anyway. For those who want to give you can send money to the following charity, or can contribute to our honeymoon. Please dont give physical gifts as they will need to be transported to Switzerland. <span> Charity: CH234 340239 234890 234 </span> <span>Honeymoon Account: CH234 234890 2348 0234890 </span>",
-        "de": "Wir erwarten wirklich nicht, dass jemand Geschenke oder Geld gibt. Bitte fühlen Sie sich in keiner Weise verpflichtet, irgendetwas zu geben. Für diejenigen, die gerne etwas geben möchten, können Sie Geld an die folgende Wohltätigkeitsorganisation senden oder zu unserer Hochzeitsreise beitragen. Bitte geben Sie keine physischen Geschenke, da sie in die Schweiz transportiert werden müssen. Wohltätigkeit: CH234 340239 234890 234 Flitterwochen-Konto: CH234 234890 2348 0234890."
+        "de": "Wir erwarten wirklich nicht, dass jemand Geschenke oder Geld gibt, wir haben schon alles war wir brauchen. Bitte fühlen dich nicht verpflichtet, irgendetwas zu geben. Für diejenigen, die gerne etwas geben möchten, können Geld an die folgende Wohltätigkeitsorganisation spenden oder zu unserer Hochzeitsreise beitragen. Bitte nehmt keine physischen Geschenke mit, da wir diese in die Schweiz transportieren müssen. Wohltätigkeit: CH234 340239 234890 234 Flitterwochen-Konto: CH234 234890 2348 0234890."
       }
     }
   }
