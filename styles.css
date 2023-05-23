@@ -70,7 +70,7 @@ dt {
 .agenda dl {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   row-gap: 8px;
   margin-top: 0.5rem;
 }
@@ -90,10 +90,11 @@ dt {
 
 .intro-wrapper button {
   display: block;
-  height: 8vh;
   font-size: 1.3em;
   color: var(--highlight-color);
   width: max-content;
+  min-width: 200px;
+  padding: 16px;
 }
 
 .hero-cta {
@@ -148,7 +149,8 @@ h2 {
   color: var(--highlight-color);
 }
 h3 {
-  color: var(--lowlight-color);
+  color: var(--highlight-color);
+  margin-bottom: 0.5rem;
 }
 p,
 h3 {
@@ -285,8 +287,8 @@ section {
 }
 
 #language-switcher {
-  margin-bottom: 15px;
-  margin-left: 15px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #language-switcher button {
@@ -321,6 +323,11 @@ section {
   body {
     padding: 3rem;
     font-size: 1em;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  #floating-button {
+    display: none;
   }
   p {
     font-size: 1.25rem;
@@ -328,9 +335,6 @@ section {
   .img-wrapper {
     margin-top: 0;
     justify-content: flex-end;
-  }
-  .intro-wrapper button {
-    width: max-content;
   }
   h1 {
     font-size: 4rem;
